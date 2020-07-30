@@ -14,7 +14,7 @@ protocol CoinModelDelegate {
 struct CoinManager {
 //     https://rest.coinapi.io/v1/exchangerate/BTC/USD?apikey=3FF0D1D8-9510-4AD5-ACD3-5F932CC8BEBB
     let baseURL = "https://rest.coinapi.io/v1/exchangerate/"
-    let apiKey = "?apikey=3FF0D1D8-9510-4AD5-ACD3-5F932CC8BEBB"
+    let apiKey = "?apikey=sadfasjfajsldfnasfasffsad"
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
 
     var delegate : CoinModelDelegate? = nil
